@@ -68,8 +68,14 @@ git push origin main
 
 ### Step 8: Update the params.yaml
 
-### Step 9: Create get_data.py to get the data
+### Step 9: Update get_data.py
+
+### Step 10: Update load_data.py
+
+### Step 11: Update the stages in dvc.yaml
+
+### Step 12: Reproduce the stage using dvc the load stage
 
 ```
-touch src/get_data.py
+dvc repro
 ```
