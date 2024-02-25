@@ -1,3 +1,5 @@
 dvc
 dvc[gdrive]
 scikit-learn
+pandas
+yaml

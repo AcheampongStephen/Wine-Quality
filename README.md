@@ -48,7 +48,7 @@ dvc init
 dvc add data_given/winequality.csv
 ```
 
-#### Add and Commit the Code with Git and remote repository
+### Step 7: Add and Commit the Code with Git and remote repository
 
 ```
 git add . && git commit -m "first commit"
@@ -64,4 +64,12 @@ git branch -M main
 
 ```
 git push origin main
+```
+
+### Step 8: Update the params.yaml
+
+### Step 9: Create get_data.py to get the data
+
+```
+touch src/get_data.py
 ```
