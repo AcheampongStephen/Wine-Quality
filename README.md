@@ -72,9 +72,25 @@ git push origin main
 
 ### Step 10: Update load_data.py
 
-### Step 11: Update the stages in dvc.yaml
+### Step 11: Update the load_data stages in dvc.yaml
 
-### Step 12: Reproduce the stage using dvc the load stage
+### Step 12: Reproduce the load stage with dvc.yaml
+
+```
+dvc repro
+```
+
+### Step 13: Push the changes to the repository
+
+```
+git add . && git commit -m "Stage 1 completed" && git push origin main
+```
+
+### Step 14: Update split_data.py
+
+### Step 15: Update the split_data stage in dvc.yaml
+
+### Step 16: Reproduce the split data with dvc.yaml
 
 ```
 dvc repro
