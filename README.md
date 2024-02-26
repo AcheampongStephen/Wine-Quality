@@ -117,3 +117,9 @@ dvc repro
 ```
 git add . && git commit -m "Stage 2 completed" && git push origin main
 ```
+
+### Basic commands for experimentations
+
+```
+dvc metrics show
+```
