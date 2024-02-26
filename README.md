@@ -95,3 +95,25 @@ git add . && git commit -m "Stage 1 completed" && git push origin main
 ```
 dvc repro
 ```
+
+### Step 17: Push the changes to the repository
+
+```
+git add . && git commit -m "Stage 2 completed" && git push origin main
+```
+
+### Step 18: Update train_and_evaluate_data.py
+
+### Step 19: Update the strain_and_evaluate stage in dvc.yaml
+
+### Step 20: Reproduce the train_and_evaluate with dvc.yaml
+
+```
+dvc repro
+```
+
+### Step 21: Push the changes to the repository
+
+```
+git add . && git commit -m "Stage 2 completed" && git push origin main
+```
