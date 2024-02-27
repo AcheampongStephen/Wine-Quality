@@ -8,6 +8,7 @@ dirs = [
     "saved_models",
     "src"
     "report"
+    "tests"
 ]
 
 for dir_ in dirs:
@@ -19,13 +20,18 @@ files = [
     "dvc.yaml",
     "params.yaml",
     ".gitignore",
+    "tox.ini",
+    "setup.py",
     os.path.join("src", "__init__.py"),
     os.path.join("src", "get_data.py"),
     os.path.join("src", "load_data.py"),
     os.path.join("src", "split_data.py"),
     os.path.join("src", "train_and_evaluate.py"),
     os.path.join("report", "params.json"),
-    os.path.join("report", "scores.json")
+    os.path.join("report", "scores.json"),
+    os.path.join("tests", "conftest.py"),
+    os.path.join("tests", "test_config.py.py"),
+    os.path.join("tests", "__int__.py")
 ]
 
 for file_ in files:

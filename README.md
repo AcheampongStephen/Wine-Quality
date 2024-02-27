@@ -123,3 +123,28 @@ git add . && git commit -m "Stage 2 completed" && git push origin main
 ```
 dvc metrics show
 ```
+
+```
+dvc metrics diff
+```
+
+### Step 22: Update test_config.py
+
+```
+you can run pytest -v to check if the test is correct.
+However, you can also run it using tox.ini
+```
+
+### Step 23: Update tox.ini and run
+
+```
+tox
+
+NB: tox -r ifrequirements are updated
+```
+
+### Step 24: Update setup.py to build the packages.
+
+```
+pip install -e .
+```

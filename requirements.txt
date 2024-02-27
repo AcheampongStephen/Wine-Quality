@@ -2,6 +2,8 @@ dvc
 dvc[gdrive]
 scikit-learn
 pandas
-yaml
+PyYAML
 numpy
 joblib
+pytest
+tox
