@@ -7,3 +7,8 @@ numpy
 joblib
 pytest
 tox
+jupyterlab
+flake8
+
+
+-e .

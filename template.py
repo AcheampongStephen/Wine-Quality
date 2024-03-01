@@ -6,9 +6,13 @@ dirs = [
     "notebooks",
     "data_given",
     "saved_models",
-    "src"
-    "report"
-    "tests"
+    "src",
+    "report",
+    "tests",
+    os.path.join("prediction_service", "model"),
+    os.path.join("webapp", "static", "css"),
+    os.path.join("webapp", "static", "script"),
+    os.path.join("webapp", "templates"),
 ]
 
 for dir_ in dirs:
@@ -22,6 +26,7 @@ files = [
     ".gitignore",
     "tox.ini",
     "setup.py",
+    "app.py",
     os.path.join("src", "__init__.py"),
     os.path.join("src", "get_data.py"),
     os.path.join("src", "load_data.py"),
@@ -31,7 +36,15 @@ files = [
     os.path.join("report", "scores.json"),
     os.path.join("tests", "conftest.py"),
     os.path.join("tests", "test_config.py.py"),
-    os.path.join("tests", "__int__.py")
+    os.path.join("tests", "__int__.py"),
+    os.path.join("prediction_service", "__init__.py"),
+    os.path.join("prediction_service", "prediction.py"),
+    os.path.join("webapp", "static", "css", "main.css"),
+    os.path.join("webapp", "static", "script", "index.js"),
+    os.path.join("webapp", "templates", "index.html"),
+    os.path.join("webapp", "templates", "404.html"),
+    os.path.join("webapp", "templates", "base.html")
+
 ]
 
 for file_ in files:

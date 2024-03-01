@@ -148,3 +148,25 @@ NB: tox -r ifrequirements are updated
 ```
 pip install -e .
 ```
+
+```
+python setup.py sdist bdist_wheel - If you want to build the setuop package for others to use
+```
+
+### Step 25: Update the jupyterlab to determine the boundaries of your features
+
+```
+pip install jupyterlab
+```
+
+```
+jupyter-lab notebooks/
+```
+
+### Step 26: Update the exception created in notebook into test_config.py
+
+### Step 27: Check the clarity of your code using flake8 in tox.ini
+
+```
+tox -r
+```
