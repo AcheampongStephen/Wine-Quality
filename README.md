@@ -170,3 +170,12 @@ jupyter-lab notebooks/
 ```
 tox -r
 ```
+
+### Step 28: Update the webapp directory structure
+
+### Step 29: Update app.py file
+
+### Step 30: Update github workflow, thus, ci-cd.yaml file
+
+### Step 30: Update procfile
+
